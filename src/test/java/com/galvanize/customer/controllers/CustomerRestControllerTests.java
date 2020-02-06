@@ -21,6 +21,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
+/*
+The @SpringBootTest annotation tells Spring Boot to look for a main configuration class
+(one with @SpringBootApplication, for instance) and use that to start a Spring application context.
+*/
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc
 public class CustomerRestControllerTests {
